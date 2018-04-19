@@ -43,7 +43,7 @@ app.get('/', (req, res) => {
   res.render('home.hbs',{
     pageTitle : 'Home Page',
     heading1 : 'Home Page',
-    welcomeMessage : 'Hello friends, this is demo of dynamic creation of home page. \n Created by Shubham Chaudhari.',
+    welcomeMessage : 'Hello friends, this is demo of dynamic creation of home page.',
 
   });
 });
@@ -52,7 +52,7 @@ app.get('/about', (req, res)=> {
   res.render('about.hbs', {
     pageTitle : 'About Page',
     heading1 : 'About Page',
-    welcomeMessage : 'Hello friends, this is demo of dynamic creation of about page.In this demo there is a information of Git commit and heroku deployment.\n Created by Shubham Chaudhari.',
+    welcomeMessage : 'Hello friends, this is demo of dynamic creation of about page.In this demo there is a information of Git commit and heroku deployment.',
 
   });
 })
